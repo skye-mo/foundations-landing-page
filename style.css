@@ -2,10 +2,28 @@
     background: #1F2937;
 }
 
-.header-logo {
+.top-of-header {
     display: flex;
+    flex-direction: row;
+}
+
+.header-logo {
+    justify-content: flex-start;
+    flex: 2;
+}
+
+.logo {
+    font-weight: 24px;
+    color: #F9FAF8;
 }
 
 .header-logo div {
     /* ... */
+}
+
+.header-links-flex-container {
+    display: flex;
+    flex-direction: row;
+    font-weight: 18px;
+    color: #E5E7EB;
 }
