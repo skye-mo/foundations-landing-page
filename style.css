@@ -1,0 +1,11 @@
+.header-area {
+    background: #1F2937;
+}
+
+.header-logo {
+    display: flex;
+}
+
+.header-logo div {
+    /* ... */
+}
