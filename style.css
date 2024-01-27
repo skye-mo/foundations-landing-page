@@ -14,17 +14,14 @@
 .header-logo {
     justify-content: flex-start;
     flex: 2;
-}
-
-.logo {
-    font-weight: 24px;
+    font-size: 24px;
     color: #F9FAF8;
 }
 
 .header-links-flex-container {
     display: flex;
     flex-direction: row;
-    font-weight: 18px;
+    font-size: 18px;
     color: #E5E7EB;
     gap: 15px;
 }
@@ -35,8 +32,9 @@
     flex: 1;
 }
 
-.block-one {
-    justify-content: flex-start;
+.block-one, .block-two {
+    display: flex;
+    flex: 1;
 }
 
 .block-two {
@@ -47,6 +45,7 @@
 }
 
 .awesome-website {
-    font-weight: 48px;
+    font-size: 48px;
+    font-weight: 800;
     color: #F9FAF8;
 }
