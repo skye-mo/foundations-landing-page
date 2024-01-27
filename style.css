@@ -47,6 +47,7 @@
 .block-two {
     color: white;
     background-color: gray;
+    justify-content: center;
 }
 
 .awesome-website {
@@ -63,7 +64,6 @@
 .sign-up {
     border-radius: 4px;
     background-color: #3882F6;
-    text-align: center;
     margin-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
@@ -71,5 +71,8 @@
     padding-bottom: 5px;
     color: white;
     border: none;
+    text-align: left;
     font-size: 14px;
+    /* Not the best way to get the button to the left. */
+    margin-left: -240px;
 }
