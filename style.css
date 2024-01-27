@@ -1,3 +1,5 @@
+/* UPPER HEADER */
+
 .header-area {
     padding: 25px;
     padding-left: 100px;
@@ -48,4 +50,23 @@
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+}
+
+.header-subtext {
+    font-size: 16px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    border-radius: 4px;
+    background-color: #3882F6;
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    border: none;
+    font-size: 14px;
 }
