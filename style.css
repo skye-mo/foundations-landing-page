@@ -78,3 +78,14 @@
     /* Not the best way to get the button to the left. */
     margin-left: -240px;
 }
+
+/* Random information. */
+
+.img {
+    height: 200px;
+    width: 200px;
+}
+
+.images {
+    display: flex;
+}
