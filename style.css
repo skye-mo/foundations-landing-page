@@ -136,3 +136,44 @@
     font-weight: bold;
     text-align: right;
 }
+
+/* Call to action. */
+
+.blue-box {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 50px;
+}
+
+.call-to-action {
+    font-weight: bold;
+    color: white;
+}
+
+.cta-text {
+    color: white;
+}
+
+.left, .right {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    flex-direction: column;
+    flex: 2;
+}
+
+.sign-up-2 {
+    color: white;
+    background-color: blue;
+    border-color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
