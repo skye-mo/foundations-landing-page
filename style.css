@@ -93,13 +93,16 @@
 .images {
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 50px;
+    justify-content: center;
 }
 
 .category {
     display: flex;
     align-items: center;
     flex-direction: column;
+    gap: 5px;
+    flex-basis: 150px;
 }
 
 .img {
@@ -110,7 +113,9 @@
 }
 
 .subtext {
+    display: flex;
     text-align: center;
+    gap: 5px;
     margin-bottom: 50px;
 }
 
